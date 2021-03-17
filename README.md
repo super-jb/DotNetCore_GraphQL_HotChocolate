@@ -43,3 +43,11 @@ Install EF if you don't have it installed:
 
 Setup Migrations
 * dotnet ef migrations add AddPlatformToDb
+* dotnet ef database update
+
+Setup GraphQL
+* update Startup.cs
+* dotnet build
+* dotnet run
+* http://localhost:5000/graphql/
+* http://localhost:5000/graphql-voyager/

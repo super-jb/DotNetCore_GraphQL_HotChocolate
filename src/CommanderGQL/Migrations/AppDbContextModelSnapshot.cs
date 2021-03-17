@@ -34,7 +34,7 @@ namespace CommanderGQL.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Platform");
+                    b.ToTable("Platforms");
                 });
 #pragma warning restore 612, 618
         }
