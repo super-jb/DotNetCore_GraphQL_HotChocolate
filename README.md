@@ -51,3 +51,11 @@ Setup GraphQL
 * dotnet run
 * http://localhost:5000/graphql/
 * http://localhost:5000/graphql-voyager/
+
+Query
+
+Mutation
+
+Subscription
+* open up http://localhost:5000/graphql/ and exec a Subscription request
+* in Postman, exec mutation request that adds new Platform -> subscription will pick it up
